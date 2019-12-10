@@ -1,0 +1,59 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+
+}
+
+.delete-btn {
+  border:0.1em solid #948472;
+  padding:1rem 3.2rem 1rem 0.75rem;
+  background-color: #F2A149;
+  background-image: url("cross-white-bg.svg");
+  background-size: 44% 82%;
+  background-repeat: no-repeat;
+  background-position: right ;
+  font-weight:700;
+  font-size: 1rem;
+}
+
+.delete-btn-2 {
+  border:0.1em solid #948472;
+  padding:.5em .5em;
+  background: #F2A149;
+  font-weight:700;
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #000000;
+}
+
+.circle {
+    width: 3rem;
+    height: 3rem;
+    position: relative;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: 0.63rem;
+}
+
+.cross:before, .cross:after {
+  position: absolute;
+  top: 0.9375rem;
+  content: '';
+  height: 1.25rem;
+  width: 0.2rem;
+  background-color: #000000;
+}
+.cross:before {
+  transform: rotate(45deg);
+}
+.cross:after {
+  transform: rotate(-45deg);
+}
