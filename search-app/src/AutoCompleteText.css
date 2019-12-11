@@ -42,7 +42,7 @@
 
 .errorMsg {
   padding: 10px;
-  background-color: #f44336; /* Red */
+  background-color: #f44336;
   color: white;
   margin-top: 15px;
   margin-bottom: 15px;
@@ -60,10 +60,6 @@
 .AutoCompleteText li:hover {
   background-color: rgba(128, 128, 128, .20)
 }
-
-/* .AutoCompleteText .selecgedSuggestionContainer {
-
-} */
 
 .historyHeaders {
   display: flex;
@@ -132,7 +128,6 @@
   .selectedListItem {
     display: block;
     text-align: left;
-    /* border: 1px solid grey; */
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 2px 4px 1px rgba(0, 0, 0, .18);
   }
 
