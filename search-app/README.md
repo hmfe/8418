@@ -8,6 +8,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## TODO
 - adding keyboard interaction to select and add one suggested search item.
+- using a CSS preprocessor and/library
 
 ## Available Scripts
 
