@@ -1,0 +1,15 @@
+.App {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-content-wrapper {
+  margin: 0 10px;
+  min-height: 90vh;
+  margin-top: 150px;
+  width: 50%;
+}
