@@ -17,11 +17,16 @@ possible. (HINT: It is possible to solve this using only one `<button>`)
 
 * You can provide a solution for this separately or as a part of the solution for (3) *
 
+## Answer 1: To see button go to button/ from project directory and open the button.html file.
+### I have implemented two buttons using different way.
+
 
 ### 2: Please answer the questions found in the link below ###
 https://sv.surveymonkey.com/r/QCT8SHL
 
 ### 3: Implement a simple search application ###
+
+## Answer 3: To see the search app go into search-app/ and start with "yarn install". More info and other scripts are available inside the project directory in a seperate readme file.
 
 <img src="https://raw.githubusercontent.com/hmfe/54321/master/search.png" style="width: 400px">
 Implement a simple search form. The search should use a public REST API of your
